@@ -1,0 +1,41 @@
+.example-card {
+    width: 400px; // or set an appropriate width
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .example-form {
+    width: 100%;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+  .content {
+    padding-top: 10px;
+  }
+  .row {
+    display: flex;
+    gap: 10px;
+  
+    mat-form-field {
+      width: 100%;
+    }
+  }
+  
+  .action {
+    padding: 0px 25px 20px;
+    button {
+      flex: 1;
+    }
+  }
+  .toast-center {
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
